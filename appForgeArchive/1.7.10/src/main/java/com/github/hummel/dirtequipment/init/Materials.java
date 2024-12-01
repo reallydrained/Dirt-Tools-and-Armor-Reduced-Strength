@@ -15,7 +15,7 @@ public class Materials {
 	}
 
 	static {
-		DIRT_ARMOR = EnumHelper.addArmorMaterial("dirt", 2.5, new int[]{1, 1, 1, 1}, 1);
+		DIRT_ARMOR = EnumHelper.addArmorMaterial("dirt", 2, new int[]{1, 1, 1, 1}, 1);
 		DIRT_ARMOR.customCraftingMaterial = new ItemStack(Blocks.dirt).getItem();
 		DIRT_TOOL = EnumHelper.addToolMaterial("dirt", 0, 29, 3.0f, 1.0f, 1);
 		DIRT_TOOL.setRepairItem(new ItemStack(Blocks.dirt));
