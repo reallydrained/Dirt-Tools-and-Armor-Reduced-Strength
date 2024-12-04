@@ -20,7 +20,7 @@ public class Materials {
 		DIRT_ARMOR.customCraftingMaterial = new ItemStack(Blocks.dirt).getItem();
 		DIRT_TOOL = EnumHelper.addToolMaterial("dirt", 0, 21, 0.4f, -2.0f, 1);
 		DIRT_TOOL.setRepairItem(new ItemStack(Blocks.dirt));
-		DIRT_TOOL2 = EnumHelper.addToolMaterial("dirt2", 0, 21, 0.4f, -1.5f, 1);
+		DIRT_TOOL2 = EnumHelper.addToolMaterial("dirt2", 0, 21, 0.4f, -1.0f, 1);
 		DIRT_TOOL2.setRepairItem(new ItemStack(Blocks.dirt));
 	}
 }
