@@ -6,7 +6,7 @@ import net.minecraft.item.ItemSpade;
 
 public class ItemDirtShovel extends ItemSpade {
 	public ItemDirtShovel() {
-		super(Materials.DIRT_TOOL);
+		super(Materials.DIRT_TOOL2);
 		setCreativeTab(CreativeTabs.tabTools);
 	}
 }
