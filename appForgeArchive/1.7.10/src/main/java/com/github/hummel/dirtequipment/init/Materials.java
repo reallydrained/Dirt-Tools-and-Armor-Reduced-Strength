@@ -10,6 +10,7 @@ import net.minecraftforge.common.util.EnumHelper;
 public class Materials {
 	public static final ItemArmor.ArmorMaterial DIRT_ARMOR;
 	public static final Item.ToolMaterial DIRT_TOOL;
+	public static final Item.ToolMaterial DIRT_TOOL2;
 
 	private Materials() {
 	}
@@ -17,7 +18,9 @@ public class Materials {
 	static {
 		DIRT_ARMOR = EnumHelper.addArmorMaterial("dirt", 2, new int[]{1, 2, 1, 1}, 1);
 		DIRT_ARMOR.customCraftingMaterial = new ItemStack(Blocks.dirt).getItem();
-		DIRT_TOOL = EnumHelper.addToolMaterial("dirt", 0, 21, 0.4f, -1.6f, 0.3f);
+		DIRT_TOOL = EnumHelper.addToolMaterial("dirt", 0, 21, 0.4f, -2.0f, 0.5f);
 		DIRT_TOOL.setRepairItem(new ItemStack(Blocks.dirt));
+		DIRT_TOOL2 = EnumHelper.addToolMaterial("dirt2", 0, 21, 0.4f, -1.5f, 0.5f);
+		DIRT_TOOL2.setRepairItem(new ItemStack(Blocks.dirt));
 	}
 }
