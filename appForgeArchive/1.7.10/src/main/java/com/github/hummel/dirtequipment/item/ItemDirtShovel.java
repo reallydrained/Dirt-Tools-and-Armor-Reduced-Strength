@@ -8,5 +8,12 @@ public class ItemDirtShovel extends ItemSpade {
 	public ItemDirtShovel() {
 		super(Materials.DIRT_TOOL2);
 		setCreativeTab(CreativeTabs.tabTools);
-	}
+		}
+
+  @Override
+    @SideOnly(Side.CLIENT)
+    public void addInformation(ItemStack stack, EntityPlayer player, List tooltip, boolean advanced) {
+        super.addInformation(stack, player, tooltip, advanced);
+        tooltip.add("\u00A79+1 Attack Damage");  // §9 (\u00A79) for blue text
+    }
 }

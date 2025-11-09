@@ -1,3 +1,31 @@
+# Dirt Tools and Armor Reduced Strength (modified version of Dirt Tools and Armor mod specifically for Minecraft 1.7.10)
+
+This mod was created (or, more accurately, altered) for use in my modpack Perfect Guy Craft, which is currently unreleased. The purpose of these alterations is to make the mod more realistic and fair. Originally, this mod was essentially a "cheat mod," with tools and armor that were stronger than their diamond counterparts. In this version, however, it's exactly what you'd expect: dirt tools are now even weaker than their wooden equivalents, and dirt armor is worse than leather! Once the mod is finished, it should function properly on its own and I will post a release here, as well as on CurseForge and Modrinth.
+
+*Special thanks to [Hummel009](https://github.com/hummel009 "Hummel009 on GitHub") for allowing me to do this and helping me figure it out along the way. This would not be possible without him!*
+
+- - -
+
+- - -
+
+- - -
+
+- - -
+
+- - -
+
+- - -
+
+- - -
+
+- - -
+
+- - -
+
+- - -
+
+# ORIGINAL README:
+
 Dirt Tools and Armor - простенький мод, о котором мечтал каждый. Он добавляет меч, сет брони и инструменты
 из земли. Все предметы могут быть скрафчены в выживании и имеют характеристики алмазных.
 
